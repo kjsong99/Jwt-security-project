@@ -1,4 +1,4 @@
-package com.song.jwtproject;
+package com.song.jwtproject.dto;
 
 import lombok.Data;
 

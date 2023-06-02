@@ -3,7 +3,7 @@ package com.song.jwtproject.config.auth.jwt;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.song.jwtproject.LoginRequestDto;
+import com.song.jwtproject.dto.LoginRequestDto;
 import com.song.jwtproject.config.auth.PrincipalDetails;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
