@@ -40,4 +40,18 @@ public class RestApiController {
 
 
     }
+
+    @GetMapping("/manager/test")
+    public @ResponseBody String managerAuthTest(){
+        return "<h1>Manager</h1>";
+    }
+
+    @GetMapping("/admin/test")
+    public @ResponseBody String AdminAuthTest(){
+        return "<h1>Admin</h1>";
+    }
+    @GetMapping("/user/test")
+    public @ResponseBody String UserAuthTest(){
+        return "<h1>User</h1>";
+    }
 }
